@@ -13,6 +13,8 @@
 		806DA534287C9DCB00699A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806DA532287C9DCB00699A3B /* Main.storyboard */; };
 		806DA536287C9DCC00699A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806DA535287C9DCC00699A3B /* Assets.xcassets */; };
 		806DA539287C9DCC00699A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806DA537287C9DCC00699A3B /* LaunchScreen.storyboard */; };
+		806DA542287CBE6400699A3B /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 806DA540287CBE6400699A3B /* level1.txt */; };
+		806DA543287CBE6400699A3B /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 806DA541287CBE6400699A3B /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		806DA535287C9DCC00699A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806DA538287C9DCC00699A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		806DA53A287C9DCC00699A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806DA540287CBE6400699A3B /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		806DA541287CBE6400699A3B /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,18 @@
 				806DA535287C9DCC00699A3B /* Assets.xcassets */,
 				806DA537287C9DCC00699A3B /* LaunchScreen.storyboard */,
 				806DA53A287C9DCC00699A3B /* Info.plist */,
+				806DA544287CBE6B00699A3B /* Levels */,
 			);
 			path = "words builder";
+			sourceTree = "<group>";
+		};
+		806DA544287CBE6B00699A3B /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				806DA540287CBE6400699A3B /* level1.txt */,
+				806DA541287CBE6400699A3B /* level2.txt */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806DA543287CBE6400699A3B /* level2.txt in Resources */,
 				806DA539287C9DCC00699A3B /* LaunchScreen.storyboard in Resources */,
+				806DA542287CBE6400699A3B /* level1.txt in Resources */,
 				806DA536287C9DCC00699A3B /* Assets.xcassets in Resources */,
 				806DA534287C9DCB00699A3B /* Main.storyboard in Resources */,
 			);
@@ -304,7 +320,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -332,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
